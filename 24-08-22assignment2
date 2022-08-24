@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num=1, res, i, j,n;
+    printf("\t\t Enter n value\n\n");
+     scanf("%d",&n);
+    for(i=0; i<n; i++)
+    {
+        printf(" %d ", num);
+        for(j=1; j<=n; j++)
+        {
+            res = num*j;
+            printf("%d  ", res);
+        }
+        printf("\n");
+        num++;
+    }
+    getch();
+    return 0;
+    }
